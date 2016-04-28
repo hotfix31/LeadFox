@@ -1,0 +1,23 @@
+{
+  "name": "hotfix31/leadfox",
+  "description": "PHP library for LeadFox API",
+  "version": "0.0.1",
+  "type": "library",
+  "keywords": ["php", "leadfox"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Frédéric Le Barzic",
+      "email": "fred@lebarzic.fr"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hotfix31\\LeadFox\\": "src/"
+    }
+  }
+}
