@@ -3,7 +3,7 @@
 installation via composer:
 
 ```
-composer require hotfix\leadfox
+composer require hotfix31/leadfox
 ```
 
 Exemple d'utilisation
@@ -13,7 +13,7 @@ Exemple d'utilisation
 include __DIR__. "/vendor/autoload.php";
 
 try {
-    $leadFoxAPI = new \Hotfix\LeadFox\Api([
+    $leadFoxAPI = new \Hotfix31\LeadFox\Api([
         'key' => '...',
         'secret' => '...'
     ]);
