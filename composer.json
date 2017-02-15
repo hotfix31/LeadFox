@@ -1,5 +1,5 @@
 {
-  "name": "hotfix31/leadfox",
+  "name": "hotfix/leadfox",
   "description": "PHP library for LeadFox API",
   "version": "0.0.1",
   "type": "library",
@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Hotfix31\\LeadFox\\": "src/"
+      "Hotfix\\LeadFox\\": "src/"
     }
   }
 }
