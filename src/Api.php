@@ -1,6 +1,6 @@
 <?php
 
-namespace Hotfix31\LeadFox;
+namespace Hotfix\LeadFox;
 
 class Api
 {
